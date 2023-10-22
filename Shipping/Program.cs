@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Hosting;
+using NServiceBus;
 
 namespace Shpping
 {
@@ -11,9 +12,18 @@ namespace Shpping
             await Host.CreateDefaultBuilder(args).UseNServiceBus(context =>
             {
                 var endPointConfiguration = new EndpointConfiguration("Shipping");
-                endPointConfiguration.UseTransport<LearningTransport>();
+
+                //endPointConfiguration.UseTransport<LearningTransport>();
+                var transport = endPointConfiguration.UseTransport<RabbitMQTransport>();
+                transport.ConnectionString("host=localhost;username=guest;password=guest");
+                transport.UseConventionalRoutingTopology(QueueType.Classic);
+
                 endPointConfiguration.UsePersistence<LearningPersistence>();
+
+                endPointConfiguration.EnableInstallers();
+                
                 return endPointConfiguration;
+
             }).RunConsoleAsync();
         }
     }

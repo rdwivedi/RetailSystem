@@ -12,7 +12,14 @@ namespace ClientUI
 
             var endPointConfiguration = new EndpointConfiguration("ClientUI");
 
-            var transport = endPointConfiguration.UseTransport<LearningTransport>();
+            //endPointConfiguration.UseTransport<LearningTransport>();
+            var transport = endPointConfiguration.UseTransport<RabbitMQTransport>();
+            transport.ConnectionString("host=localhost;username=guest;password=guest");
+            transport.UseConventionalRoutingTopology(QueueType.Classic);
+
+            endPointConfiguration.UsePersistence<LearningPersistence>();
+
+            endPointConfiguration.EnableInstallers();
 
             var routing = transport.Routing();
 

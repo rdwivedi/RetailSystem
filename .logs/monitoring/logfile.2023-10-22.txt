@@ -1,0 +1,7 @@
+-------------------------------------------------------------
+ServiceControl Monitoring Version:				4.32.2+02388c6fff44fd9eb48bf9c36de0db14589e02c3
+Selected Transport:					ServiceControl.Transports.Learning.LearningTransportCustomization, ServiceControl.Transports.Learning
+-------------------------------------------------------------
+2023-10-22 23:29:01.0539|1|Warn|NServiceBus.TransportExtensions|A connection string named 'NServiceBus/Transport' was found. Using named connection strings is discouraged. Instead, load the connection string in your code and pass the value to EndpointConfiguration.UseTransport().ConnectionString(connectionString).
+2023-10-22 23:29:01.5499|11|Warn|Particular.Licensing.ActiveLicense|License has expired
+2023-10-22 23:35:18.2857|1|Warn|NServiceBus.TransportExtensions|A connection string named 'NServiceBus/Transport' was found. Using named connection strings is discouraged. Instead, load the connection string in your code and pass the value to EndpointConfiguration.UseTransport().ConnectionString(connectionString).

@@ -1,0 +1,5 @@
+2023-10-23 00:00:27.0852|53|Warn|Raven.Client.Connection.Async.AsyncServerClient|Was unable to fetch topology from primary node http://localhost also there is no cached topology
+2023-10-23 00:07:30.7125|16|Warn|Raven.Client.Connection.Async.AsyncServerClient|Was unable to fetch topology from primary node http://localhost also there is no cached topology
+2023-10-23 00:08:39.3339|8|Warn|Raven.Client.Connection.Async.AsyncServerClient|Was unable to fetch topology from primary node http://localhost also there is no cached topology
+2023-10-23 00:09:14.3586|40|Warn|Raven.Database.Prefetching.PrefetchingBehavior|WASTE: Discarding future work item without using it, to reduce memory usage
+2023-10-23 00:10:58.1896|18|Warn|Raven.Client.Connection.Async.AsyncServerClient|Was unable to fetch topology from primary node http://localhost also there is no cached topology

@@ -16,7 +16,8 @@ namespace Sales
 
         public async Task Handle(PlaceOrder message, IMessageHandlerContext context)
         {
-            //if (rnd.Next(0, 100) > 80)
+            // intentionalyy making messaged to fail.
+            //if (rnd.Next(0, 100) > 10)
             //{
             //    throw new Exception("BOOM");
             //}

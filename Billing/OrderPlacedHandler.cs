@@ -14,6 +14,9 @@ namespace Billing
 
         async Task IHandleMessages<OrderPlaced>.Handle(OrderPlaced message, IMessageHandlerContext context)
         {
+            // intentionally delaying the order billed process so that Shipping Saga can timeout
+            await Task.Delay(TimeSpan.FromSeconds(10));
+
             log.Info($"Received OrderPlace, OrderId = {message.OrderId}");
 
             await context.Publish(new OrderBilled { OrderId = message.OrderId });

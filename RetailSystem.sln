@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Billing", "Billing\Billing.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shipping", "Shipping\Shipping.csproj", "{419FEA63-D483-4759-A752-98D61D18F2D2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Platform", "Platform\Platform.csproj", "{790E1928-41A8-4A0B-9157-625F9A84E2E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shipping.Tests", "Shipping.Tests\Shipping.Tests.csproj", "{C85D6362-9D2C-4140-A6EB-AD9566E6F128}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +46,13 @@ Global
 		{419FEA63-D483-4759-A752-98D61D18F2D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{419FEA63-D483-4759-A752-98D61D18F2D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{419FEA63-D483-4759-A752-98D61D18F2D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{790E1928-41A8-4A0B-9157-625F9A84E2E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{790E1928-41A8-4A0B-9157-625F9A84E2E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{790E1928-41A8-4A0B-9157-625F9A84E2E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{790E1928-41A8-4A0B-9157-625F9A84E2E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C85D6362-9D2C-4140-A6EB-AD9566E6F128}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C85D6362-9D2C-4140-A6EB-AD9566E6F128}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C85D6362-9D2C-4140-A6EB-AD9566E6F128}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C85D6362-9D2C-4140-A6EB-AD9566E6F128}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

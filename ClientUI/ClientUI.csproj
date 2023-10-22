@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <PackageReference Include="NServiceBus" Version="8.1.4" />
+    <PackageReference Include="NServiceBus.RabbitMQ" Version="8.0.3" />
     <PackageReference Include="System.Threading.Tasks" Version="4.3.0" />
   </ItemGroup>
 

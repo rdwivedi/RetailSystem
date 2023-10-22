@@ -1,0 +1,108 @@
+2023-10-22 23:28:59.8559|1|Info|ServiceBus.Management.Infrastructure.Settings.Settings|No settings found for error log queue to import, default name will be used
+2023-10-22 23:29:00.0889|1|Info|Particular.ServiceControl.Bootstrapper|
+-------------------------------------------------------------
+ServiceControl Version:             4.32.2+02388c6fff44fd9eb48bf9c36de0db14589e02c3
+Audit Retention Period (optional):  
+Error Retention Period:             10.00:00:00
+Ingest Error Messages:              True
+Forwarding Error Messages:          False
+Database Size:                      -1 B
+Database Folder Size:                b
+ServiceControl Logging Level:       Info
+RavenDB Logging Level:              Warn
+Selected Transport Customization:   ServiceControl.Transports.Learning.LearningTransportCustomization, ServiceControl.Transports.Learning
+-------------------------------------------------------------
+2023-10-22 23:29:00.3769|1|Info|ServiceControl.Transports.TransportManifestLibrary|Found transport manifest for LearningTransport
+2023-10-22 23:29:00.6399|1|Info|ServiceControl.Infrastructure.RavenDB.RavenBootstrapper|Loading Embedded RavenDB license
+2023-10-22 23:29:21.4036|17|Warn|NServiceBus.TransportExtensions|A connection string named 'NServiceBus/Transport' was found. Using named connection strings is discouraged. Instead, load the connection string in your code and pass the value to EndpointConfiguration.UseTransport().ConnectionString(connectionString).
+2023-10-22 23:29:21.4036|17|Error|NServiceBus.LicenseManager|Trial license expired. Get your free development license at https://particular.net/license/nservicebus?v=7.8.2&t=0&p=windows
+2023-10-22 23:29:21.4036|17|Warn|NServiceBus.LicenseManager|To extend your trial license, visit: https://particular.net/license/nservicebus?v=7.8.2&t=0&p=windows
+2023-10-22 23:29:21.4036|17|Info|Particular.ServiceControl.Licensing.ActiveLicense|License not found in E:\RetailSystem\Platform\bin\Debug\net7.0\platform\servicecontrol\servicecontrol-instance\license.xml
+2023-10-22 23:29:21.4036|17|Info|Particular.ServiceControl.Licensing.ActiveLicense|License not found in C:\Users\ritesh.dwivedi\AppData\Local\ParticularSoftware\license.xml
+2023-10-22 23:29:21.4036|17|Info|Particular.ServiceControl.Licensing.ActiveLicense|License not found in C:\ProgramData\ParticularSoftware\license.xml
+2023-10-22 23:29:21.4036|17|Info|Particular.ServiceControl.Licensing.ActiveLicense|License not found in Environment variable 'PARTICULARSOFTWARE_LICENSE'
+2023-10-22 23:29:21.4036|17|Info|Particular.ServiceControl.Licensing.ActiveLicense|No valid license could be found. Falling back to trial license with start date '2023-08-08'.
+2023-10-22 23:29:21.4036|17|Warn|Particular.ServiceControl.Licensing.ActiveLicense|License has expired
+2023-10-22 23:29:21.4036|17|Info|ServiceControl.Infrastructure.RavenDB.EmbeddedRavenDbHostedService|Initializing RavenDB instance
+2023-10-22 23:29:21.4036|17|Info|ServiceControl.Infrastructure.RavenDB.EmbeddedRavenDbHostedService|Creating indexes if not present.
+2023-10-22 23:29:21.4036|17|Info|ServiceControl.Infrastructure.RavenDB.EmbeddedRavenDbHostedService|Testing indexes
+2023-10-22 23:29:21.4036|17|Info|ServiceControl.Infrastructure.RavenDB.EmbeddedRavenDbHostedService|Executing data migrations
+2023-10-22 23:29:21.4036|17|Info|ServiceControl.Infrastructure.RavenDB.Expiration.ExpiredDocumentsCleanerBundle|Running deletion of expired documents every 600 seconds
+2023-10-22 23:29:21.4036|17|Info|ServiceControl.Infrastructure.RavenDB.Expiration.ExpiredDocumentsCleanerBundle|Deletion batch size set to 65512
+2023-10-22 23:29:21.4036|17|Info|ServiceControl.Infrastructure.RavenDB.Expiration.ExpiredDocumentsCleanerBundle|Retention period for errors is 10.00:00:00
+2023-10-22 23:29:22.2086|42|Warn|NServiceBus.TransportExtensions|A connection string named 'NServiceBus/Transport' was found. Using named connection strings is discouraged. Instead, load the connection string in your code and pass the value to EndpointConfiguration.UseTransport().ConnectionString(connectionString).
+2023-10-22 23:29:22.2796|50|Info|ServiceControl.Notifications.Email.SendEmailNotificationHandler|Skipping email sending. Notifications turned-off.
+2023-10-22 23:29:22.2936|52|Info|ServiceControl.Notifications.Email.SendEmailNotificationHandler|Skipping email sending. Notifications turned-off.
+2023-10-22 23:29:22.3726|60|Info|ServiceControl.Notifications.Email.SendEmailNotificationHandler|Skipping email sending. Notifications turned-off.
+2023-10-22 23:29:22.4196|63|Info|ServiceControl.Notifications.Email.SendEmailNotificationHandler|Skipping email sending. Notifications turned-off.
+2023-10-22 23:29:22.4196|52|Info|ServiceControl.Notifications.Email.SendEmailNotificationHandler|Skipping email sending. Notifications turned-off.
+2023-10-22 23:29:22.4196|64|Warn|NServiceBus.TransportExtensions|A connection string named 'NServiceBus/Transport' was found. Using named connection strings is discouraged. Instead, load the connection string in your code and pass the value to EndpointConfiguration.UseTransport().ConnectionString(connectionString).
+2023-10-22 23:29:22.4816|64|Warn|NServiceBus.TransportExtensions|A connection string named 'NServiceBus/Transport' was found. Using named connection strings is discouraged. Instead, load the connection string in your code and pass the value to EndpointConfiguration.UseTransport().ConnectionString(connectionString).
+2023-10-22 23:29:22.4816|65|Info|ServiceControl.Recoverability.RetryDocumentManager|Found 0 orphaned retry batches from previous sessions.
+2023-10-22 23:29:22.4816|63|Info|ServiceControl.Notifications.Email.SendEmailNotificationHandler|Skipping email sending. Notifications turned-off.
+2023-10-22 23:29:22.4967|67|Info|ServiceControl.Notifications.Email.SendEmailNotificationHandler|Skipping email sending. Notifications turned-off.
+2023-10-22 23:29:22.4967|57|Info|ServiceControl.Notifications.Email.SendEmailNotificationHandler|Skipping email sending. Notifications turned-off.
+2023-10-22 23:29:22.5127|64|Info|ServiceControl.Operations.ErrorIngestion|Ensure started. Infrastructure started
+2023-10-22 23:29:22.5436|63|Info|ServiceControl.Notifications.Email.SendEmailNotificationHandler|Skipping email sending. Notifications turned-off.
+2023-10-22 23:29:22.5607|58|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-10-22 23:29:22.6067|66|Info|ServiceControl.Notifications.Email.SendEmailNotificationHandler|Skipping email sending. Notifications turned-off.
+2023-10-22 23:29:22.6266|57|Info|ServiceControl.Notifications.Email.SendEmailNotificationHandler|Skipping email sending. Notifications turned-off.
+2023-10-22 23:29:22.6576|58|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2023-10-22 23:29:22.7066|58|Info|Microsoft.Hosting.Lifetime|Content root path: E:\RetailSystem\Platform\bin\Debug\net7.0\platform\servicecontrol\servicecontrol-instance\
+2023-10-22 23:29:22.8407|47|Info|ServiceControl.Notifications.Email.SendEmailNotificationHandler|Skipping email sending. Notifications turned-off.
+2023-10-22 23:29:24.3587|50|Info|Particular.ServiceControl.Licensing.ActiveLicense|License not found in E:\RetailSystem\Platform\bin\Debug\net7.0\platform\servicecontrol\servicecontrol-instance\license.xml
+2023-10-22 23:29:24.4657|50|Info|Particular.ServiceControl.Licensing.ActiveLicense|License not found in C:\Users\ritesh.dwivedi\AppData\Local\ParticularSoftware\license.xml
+2023-10-22 23:29:24.5507|50|Info|Particular.ServiceControl.Licensing.ActiveLicense|License not found in C:\ProgramData\ParticularSoftware\license.xml
+2023-10-22 23:29:24.5637|50|Info|Particular.ServiceControl.Licensing.ActiveLicense|License not found in Environment variable 'PARTICULARSOFTWARE_LICENSE'
+2023-10-22 23:29:24.5947|50|Info|Particular.ServiceControl.Licensing.ActiveLicense|No valid license could be found. Falling back to trial license with start date '2023-08-08'.
+2023-10-22 23:29:24.5947|50|Warn|Particular.ServiceControl.Licensing.ActiveLicense|License has expired
+2023-10-22 23:31:22.5303|18|Info|ServiceControl.Recoverability.RetryDocumentManager|Found 0 orphaned retry batches from previous sessions.
+2023-10-22 23:35:16.9107|1|Info|ServiceBus.Management.Infrastructure.Settings.Settings|No settings found for error log queue to import, default name will be used
+2023-10-22 23:35:17.1797|1|Info|Particular.ServiceControl.Bootstrapper|
+-------------------------------------------------------------
+ServiceControl Version:             4.32.2+02388c6fff44fd9eb48bf9c36de0db14589e02c3
+Audit Retention Period (optional):  
+Error Retention Period:             10.00:00:00
+Ingest Error Messages:              True
+Forwarding Error Messages:          False
+Database Size:                      1.05 MB
+Database Folder Size:               85.53 MB
+ServiceControl Logging Level:       Info
+RavenDB Logging Level:              Warn
+Selected Transport Customization:   ServiceControl.Transports.Learning.LearningTransportCustomization, ServiceControl.Transports.Learning
+-------------------------------------------------------------
+2023-10-22 23:35:17.5267|1|Info|ServiceControl.Transports.TransportManifestLibrary|Found transport manifest for LearningTransport
+2023-10-22 23:35:17.7877|1|Info|ServiceControl.Infrastructure.RavenDB.RavenBootstrapper|Loading Embedded RavenDB license
+2023-10-22 23:35:26.2179|18|Warn|NServiceBus.TransportExtensions|A connection string named 'NServiceBus/Transport' was found. Using named connection strings is discouraged. Instead, load the connection string in your code and pass the value to EndpointConfiguration.UseTransport().ConnectionString(connectionString).
+2023-10-22 23:35:26.2179|18|Info|ServiceControl.Infrastructure.RavenDB.EmbeddedRavenDbHostedService|Initializing RavenDB instance
+2023-10-22 23:35:26.2179|18|Info|ServiceControl.Infrastructure.RavenDB.EmbeddedRavenDbHostedService|Creating indexes if not present.
+2023-10-22 23:35:26.2179|18|Info|ServiceControl.Infrastructure.RavenDB.EmbeddedRavenDbHostedService|Testing indexes
+2023-10-22 23:35:26.2179|18|Info|ServiceControl.Infrastructure.RavenDB.EmbeddedRavenDbHostedService|Executing data migrations
+2023-10-22 23:35:26.2179|18|Info|ServiceControl.Infrastructure.RavenDB.Expiration.ExpiredDocumentsCleanerBundle|Running deletion of expired documents every 600 seconds
+2023-10-22 23:35:26.2179|18|Info|ServiceControl.Infrastructure.RavenDB.Expiration.ExpiredDocumentsCleanerBundle|Deletion batch size set to 65512
+2023-10-22 23:35:26.2219|18|Info|ServiceControl.Infrastructure.RavenDB.Expiration.ExpiredDocumentsCleanerBundle|Retention period for errors is 10.00:00:00
+2023-10-22 23:35:27.0359|16|Warn|NServiceBus.TransportExtensions|A connection string named 'NServiceBus/Transport' was found. Using named connection strings is discouraged. Instead, load the connection string in your code and pass the value to EndpointConfiguration.UseTransport().ConnectionString(connectionString).
+2023-10-22 23:35:27.0359|16|Warn|NServiceBus.TransportExtensions|A connection string named 'NServiceBus/Transport' was found. Using named connection strings is discouraged. Instead, load the connection string in your code and pass the value to EndpointConfiguration.UseTransport().ConnectionString(connectionString).
+2023-10-22 23:35:27.0359|52|Warn|NServiceBus.TransportExtensions|A connection string named 'NServiceBus/Transport' was found. Using named connection strings is discouraged. Instead, load the connection string in your code and pass the value to EndpointConfiguration.UseTransport().ConnectionString(connectionString).
+2023-10-22 23:35:27.0609|16|Info|ServiceControl.Operations.ErrorIngestion|Ensure started. Infrastructure started
+2023-10-22 23:35:27.0979|56|Info|ServiceControl.Recoverability.RetryDocumentManager|Found 0 orphaned retry batches from previous sessions.
+2023-10-22 23:35:27.1399|49|Info|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2023-10-22 23:35:27.1439|49|Info|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2023-10-22 23:35:27.1619|49|Info|Microsoft.Hosting.Lifetime|Content root path: E:\RetailSystem\Platform\bin\Debug\net7.0\platform\servicecontrol\servicecontrol-instance\
+2023-10-22 23:35:48.5353|54|Info|ServiceControl.Recoverability.RetriesGateway|Enqueuing index based bulk retry 'System.Exception: NServiceBus.Unicast.Messages.MessageMetadataRegistry.GetMessageMetadata(Type messageType)'
+2023-10-22 23:35:52.2033|39|Info|ServiceControl.Recoverability.RetriesGateway|Created Batch 'RetryBatches/76aa965c-70ef-4d2d-88e0-313a51f5000c' with 1 messages for ''System.Exception: NServiceBus.Unicast.Messages.MessageMetadataRegistry.GetMessageMetadata(Type messageType)' batch 1 of 1'.
+2023-10-22 23:35:52.2563|18|Info|ServiceControl.Recoverability.RetriesGateway|Moved Batch 'RetryBatches/76aa965c-70ef-4d2d-88e0-313a51f5000c' to Staging
+2023-10-22 23:35:57.2107|18|Info|ServiceControl.Recoverability.RetryProcessor|Staging batch RetryBatches/76aa965c-70ef-4d2d-88e0-313a51f5000c.
+2023-10-22 23:35:57.2378|53|Info|ServiceControl.Recoverability.RetryProcessor|Staging 1 messages for retry batch RetryBatches/76aa965c-70ef-4d2d-88e0-313a51f5000c with staging attempt Id 90ee3abf-2c13-4f00-bf59-7ab7bbc72343.
+2023-10-22 23:35:57.2707|18|Info|ServiceControl.Recoverability.RetryProcessor|Retry batch RetryBatches/76aa965c-70ef-4d2d-88e0-313a51f5000c staged with Staging Id 90ee3abf-2c13-4f00-bf59-7ab7bbc72343 and 1 matching failure retries
+2023-10-22 23:35:57.2707|18|Info|ServiceControl.Recoverability.RetryProcessor|Batch RetryBatches/76aa965c-70ef-4d2d-88e0-313a51f5000c with 1 messages staged and 0 skipped ready to be forwarded.
+2023-10-22 23:35:57.3007|48|Info|ServiceControl.Recoverability.RetryProcessor|Starting forwarder for batch RetryBatches/76aa965c-70ef-4d2d-88e0-313a51f5000c with 1 messages in counting mode.
+2023-10-22 23:35:57.3348|48|Warn|NServiceBus.TransportExtensions|A connection string named 'NServiceBus/Transport' was found. Using named connection strings is discouraged. Instead, load the connection string in your code and pass the value to EndpointConfiguration.UseTransport().ConnectionString(connectionString).
+2023-10-22 23:35:57.3507|48|Info|ServiceControl.Recoverability.ReturnToSenderDequeuer|Forwarder for batch RetryBatches/76aa965c-70ef-4d2d-88e0-313a51f5000c started receiving messages from Particular.ServiceControl.staging.
+2023-10-22 23:35:57.4567|15|Info|NServiceBus.Raw.RunningRawEndpointInstance|Stopping receiver.
+2023-10-22 23:35:57.4737|15|Info|NServiceBus.Raw.RunningRawEndpointInstance|Receiver stopped.
+2023-10-22 23:35:57.4737|15|Info|NServiceBus.Raw.StoppableRawEndpoint|Initiating shutdown.
+2023-10-22 23:35:57.4737|15|Info|NServiceBus.Raw.StoppableRawEndpoint|Shutdown complete.
+2023-10-22 23:35:57.4737|15|Info|ServiceControl.Recoverability.ReturnToSenderDequeuer|Forwarder for batch RetryBatches/76aa965c-70ef-4d2d-88e0-313a51f5000c finished forwarding all messages.
+2023-10-22 23:35:57.5357|52|Info|ServiceControl.Recoverability.InMemoryRetry|Retry operation 102534f9-b498-272d-f159-e069c42a08d1 completed. 0 messages skipped, 1 forwarded. Total 1.
+2023-10-22 23:35:57.5357|52|Info|ServiceControl.Recoverability.RetryProcessor|Done forwarding batch RetryBatches/76aa965c-70ef-4d2d-88e0-313a51f5000c.
