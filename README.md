@@ -6,3 +6,6 @@ here we learn
 - How to decouple business processes with the publish/subscribe pattern
 - Dealing with errors using automatic retries
 - Implementing long-running business processes as sagas
+
+To-DO
+- add Test case for Sagas
